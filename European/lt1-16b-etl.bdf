@@ -1,12 +1,11 @@
 STARTFONT 2.1
-COMMENT This font is still under development.
+COMMENT Copyright (C) 1996 Electrotechnical Laboratory, Japan.
 COMMENT You can use, copy, modify, distribute this file for free.
-COMMENT 
 COMMENT 96.06.03 created by Takahashi N. <ntakahas@etl.go.jp>
 FONT -ETL-fixed-bold-r-normal--16-160-72-72-C-80-ISO8859-1
 SIZE 16 72 72
 FONTBOUNDINGBOX 8 16 0 -2
-STARTPROPERTIES 18
+STARTPROPERTIES 19
 FONTNAME_REGISTRY ""
 FOUNDRY "ETL"
 FAMILY_NAME "fixed"
@@ -25,6 +24,7 @@ CHARSET_ENCODING "1"
 DEFAULT_CHAR 32
 FONT_DESCENT 2
 FONT_ASCENT 14
+COPYRIGHT "Copyright (C) 1996 Electrotechnical Laboratory, Japan."
 ENDPROPERTIES
 CHARS 191
 STARTCHAR SPACE
@@ -2212,7 +2212,7 @@ BITMAP
 00
 00
 ENDCHAR
-STARTCHAR NO-BREAK SPACE                                                ,A (B
+STARTCHAR NO-BREAK SPACE
 ENCODING 160
 SWIDTH 500 0
 DWIDTH 8 0
@@ -2316,12 +2316,12 @@ BITMAP
 00
 00
 41
-63
+6b
 3e
-14
-14
+36
+36
 3e
-63
+6b
 41
 00
 00
@@ -2525,7 +2525,7 @@ BITMAP
 00
 00
 00
-00
+7e
 7e
 00
 00
@@ -2566,7 +2566,7 @@ BITMAP
 00
 00
 7e
-00
+7e
 00
 00
 00
@@ -2712,9 +2712,9 @@ BITMAP
 63
 63
 63
+63
 77
-7f
-7e
+6f
 60
 60
 ENDCHAR
@@ -2727,18 +2727,18 @@ BITMAP
 00
 00
 00
-3e
-7a
-7a
-7a
-7a
-3a
-0a
-0a
-0a
-0a
-0a
-0e
+3f
+7b
+7b
+7b
+7b
+3b
+0b
+0b
+0b
+0b
+0b
+0f
 00
 ENDCHAR
 STARTCHAR MIDDLE DOT

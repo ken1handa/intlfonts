@@ -1,32 +1,32 @@
 Indian:
-	ind1c24-mule.bdf	by kawabata@is.s.u-tokyo.ac.jp
-	ind24-mule.bdf		...
-	isci24-mule.bdf		...
-	ind24-uni.bdf		...
-	ind1c16-mule.bdf	resized from the above fonts
-	ind16-mule.bdf		...
-	isci16-mule.bdf		...
-	ind16-uni.bdf		...
+  ind1c24-mule.bdf	PUBLIC DOMAIN
+	Created by kawabata@is.s.u-tokyo.ac.jp.
+  ind24-mule.bdf	..likewize..
+  isci24-mule.bdf	..likewize..
+  ind24-uni.bdf		..likewize..
+  ind1c16-mule.bdf	PUBLIC DOMAIN
+	Resized from the above fonts.
+  ind16-mule.bdf	..likewize..
+  isci16-mule.bdf	..likewize..
+  ind16-uni.bdf		..likewize..
 
 Lao:
-	lao14-mule.bdf		by Sihattha Rasphone <sihattha@jaist.ac.jp>
-	lao16-mule.bdf		...
-	lao24-mule.bdf		...
+  lao{14,16,18,18b,18i,24}-mule.bdf	PUBLIC DOMAIN
+	Created by Sihattha Rasphone <sihattha@jaist.ac.jp>.
 
 Thai (TIS620.2529):
-	thai14.bdf		by Manop Wongsaisuwan <manop@ee.chula.edu>
-	thai16.bdf		...
-	thai24.bdf		...
-	thai18.bdf		by Virach Sornlertlamvanich
-						<virach@links.nectec.or.th>
-	xtis{18,24}.bdf		...
+  thai{14,16,24].bdf	PUBLIC DOMAIN
+	Created by Manop Wongsaisuwan <manop@ee.chula.edu>.
+  thai{18,18b,18i,18bi}.bdf	PUBLIC DOMAIN
+	Created by Virach Sornlertlamvanich <virach@links.nectec.or.th>.
+  xtis{18,24}.bdf		..likewize..
 
 Vietnamese (VISCII1.1)
-	visc16-etl.bdf		by ETL, still under development
-	visc24-etl.bdf		...
+  visc{16,18,18b,18bi,18i,24}-etl.bdf	Copyright ETL, freely usable.
 
 Tibetan:
-	tib16-mule.bdf		by Toru.Tomabechi@orient.unil.ch
-	tib24-mule.bdf		...
-	tib1c16-mule.bdf	...
-	tib1c24-mule.bdf	...
+  tib{9,14,16,18,24,32}p-mule.bdf	PUBLIC DOMAIN
+	Created by Toru.Tomabechi@orient.unil.ch.
+  tib{16,24,1c16,1c24}-mule.bdf	PUBLIC DOMAIN
+	Generated from tib32p-mlue.bdf by bdfresize.
+

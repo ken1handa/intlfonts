@@ -1,4 +1,24 @@
-Intlfonts NEWS -- history of user visible changes.  9 June 1999
+Intlfonts NEWS -- history of user visible changes.  18 August 2000
+
+
+* Changes in intlfonts 1.3
+
+** New Japanese JISX0213 fonts.
+
+Japanese/j00-1-16.bdf and Japanese/j00-2-16.bdf.
+
+** New Tibetan variable width fonts.
+
+Asian/tib9p-mule.bdf, Asian/tib14p-mule.bdf, Asian/tib16p-mule.bdf,
+Asian/tib18p-mule.bdf, Asian/tib24p-mule.bdf, Asian/tib32p-mule.bdf.
+
+** New Ethiopic fonts.
+
+Ethiopic/ethio12-uni.bdf and Ethiopic.BIG/ethio300-uni.bdf.
+
+** New Latin1 big fonts.
+
+European/lt1-{32,48,60}-etl.bdf.
 
 
 * Changes in intlfonts 1.2

@@ -1,9 +1,8 @@
 STARTFONT 2.1
-COMMENT 
-COMMENT Donated by H. Kagotani <kagotani@cs.titech.ac.jp>; public domain
-COMMENT font from Japan
-COMMENT 92.07.17 modified by Takahashi N. <ntakahas@etl.go.jp>
-COMMENT 94.09.14 modified by Takahashi N. <ntakahas@etl.go.jp>
+COMMENT Copyright (C) 1994 Electrotechnical Laboratory, Japan.
+COMMENT You can use, copy, modify, distribute this file for free.
+COMMENT 94.09.14 Creating by Takahashi N. <ntakahas@etl.go.jp>
+COMMENT          by retouching the public domain font "7x14.bdf".
 FONT -ETL-Fixed-Medium-R-Normal--14-140-72-72-C-70-ISO8859-1
 SIZE 14 72 72
 FONTBOUNDINGBOX 7 14 0 -2
@@ -26,7 +25,7 @@ CHARSET_ENCODING "1"
 DEFAULT_CHAR 32
 FONT_DESCENT 2
 FONT_ASCENT 12
-COPYRIGHT "Public domain font.  Share and enjoy."
+COPYRIGHT "Copyright (C) 1994 Electrotechnical Laboratory, Japan."
 ENDPROPERTIES
 CHARS 191
 STARTCHAR SPACE
@@ -2024,7 +2023,7 @@ BITMAP
 00
 00
 ENDCHAR
-STARTCHAR NO-BREAK SPACE                                                ,A (B
+STARTCHAR NO-BREAK SPACE
 ENCODING 160
 SWIDTH 500 0
 DWIDTH 7 0

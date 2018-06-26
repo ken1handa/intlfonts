@@ -1,12 +1,11 @@
 STARTFONT 2.1
-COMMENT This font is still under development.
+COMMENT Copyright (C) 1999 Electrotechnical Laboratory, Japan.
 COMMENT You can use, copy, modify, distribute this file for free.
-COMMENT
-COMMENT 99.2.20 created by K.Handa <handa@etl.go.jp>
+COMMENT 99.2.20 Created by K.Handa <handa@etl.go.jp>
 FONT -ETL-Fixed-Bold-R-Normal--18-180-72-72-C-90-ISO8859-1
 SIZE 18 72 72
 FONTBOUNDINGBOX 9 18 0 -3
-STARTPROPERTIES 18
+STARTPROPERTIES 19
 FONTNAME_REGISTRY ""
 FOUNDRY "ETL"
 FAMILY_NAME "Fixed"
@@ -25,6 +24,7 @@ CHARSET_ENCODING "1"
 FONT_ASCENT 15
 FONT_DESCENT 3
 DEFAULT_CHAR 32
+COPYRIGHT "Copyright (C) 1999 Electrotechnical Laboratory, Japan."
 ENDPROPERTIES
 CHARS 191
 STARTCHAR SPACE

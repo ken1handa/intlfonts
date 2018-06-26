@@ -1,17 +1,42 @@
 Japanese Roman&Kana (JISX0201):
-	a18rk.bdf	by K. Odajima <odajima@mt.cs.keio.ac.jp>
-	a18rk{b,i,bi}.bdf by K.Handa <handa@etl.go.jp> from a18rk.bdf
+  a18rk.bdf	PUBLIC DOMAIN
+	Created by K. Odajima <odajima@mt.cs.keio.ac.jp>.
+  a18rk{b,i}.bdf	PUBLIC DOMAIN
+	Semi-automatically generated from a18rk.bdf.
 
 Japanese Kanji (JISX0208.1978):
-	j78-16.bdf	 by Koichi Yasuoka <yasuoka@kudpc.kyoto-u.ac.jp>
+  j78-16.bdf	PUBLIC DOMAIN
+	Rearranged and modified from jiskan16.bdf (JISX 9051-1984)
+	by Koichi Yasuoka <yasuoka@kudpc.kyoto-u.ac.jp> and distributed at
+	http://kanji.zinbun.kyoto-u.ac.jp/~yasuoka/ftp/fonts/
+	by the name jiskan16-1978.bdf.Z.
 
 Japanese Kanji (JISX0208.1983):
-	j83-18.bdf	by K.Handa <handa@etl.go.jp> from jiskan16.bdf
-	j83-18{b,i}.bdf	by K.Handa <handa@etl.go.jp> from j83-18.bdf
+  j83-{18,18b,18i}.bdf	JISX 9051-1984 permits free use.
+	Semi-automatically generated from jiskan16.bdf.
 
 Japanese Kanji (JISX0208.1990):
-	j90-16.bdf	by ntakahas@etl.go.jp and takada@seraph.ntt.jp
+  j90-16.bdf	PUBLIC DOMAIN
+	Rearranged and modified from jiskan16.bdf (JISX 9051-1984)
+	by Koichi Yasuoka <yasuoka@kudpc.kyoto-u.ac.jp> and distributed at
+	http://kanji.zinbun.kyoto-u.ac.jp/~yasuoka/ftp/fonts/
+	by the name jiskan16-1990.bdf.Z.
+	Hiragana and katakana glyphs retouched by K.Handa.
 
 Japanese Kanji supplement (JISX0212):
-	jksp16.bdf	by Koichi Yasuoka <yasuoka@kudpc.kyoto-u.ac.jp>
-	jksp24.bdf	generated from jisksp40.bdf by bdfresize.
+  jksp16.bdf	PUBLIC DOMAIN
+	Created by Koichi Yasuoka <yasuoka@kudpc.kyoto-u.ac.jp>	and
+	distributed at
+	http://kanji.zinbun.kyoto-u.ac.jp/~yasuoka/ftp/fonts/
+	by the name jisksp16-1990.bdf.Z.
+  jksp24.bdf	Generated from jksp40.bdf by bdfresize.
+
+Japanese new Kanji (JISX0213.2000 plane 1&2)
+  j00-1-16.bdf	PUBLIC DOMAIN
+	Created by Toshiyuki Imamura & HANATAKA Shinya and distributed at
+	http://www.mars.sphere.ne.jp/imamura/jisx0213.html
+	by the name jiskan16-2000-1.bdf.
+  j00-2-16.bdf	PUBLIC DOMAIN
+	Created by Toshiyuki Imamura & HANATAKA Shinya and distributed at
+	http://www.mars.sphere.ne.jp/imamura/jisx0213.html
+	by the name jiskan16-2000-2.bdf.

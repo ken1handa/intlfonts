@@ -18,7 +18,8 @@ COMMENT ======================================================================
 FONT -Admas-Ethiomx16f-Medium-R-Normal--16-150-100-100-M-160-Ethiopic-Unicode
 SIZE 16 100 100
 FONTBOUNDINGBOX 16 19 0 -2
-STARTPROPERTIES 3
+STARTPROPERTIES 4
+COPYRIGHT "GNU CopyLeft"
 FONT_ASCENT 14
 FONT_DESCENT 2
 DEFAULT_CHAR 4960

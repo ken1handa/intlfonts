@@ -1,12 +1,12 @@
 Chinese simplified (GB2312.1980):
-	cc40s.bdf	created from cc48s.bdf by bdfresize
-	cc48s.bdf	by cai@neurophys.wisc.edu
+  cc48s.bdf	copying condition unclear
+	Generated from cc48s.hbf, cc48.sym, cs48s.1, and cs48s.2
+	distribyted at
+		ftp://ftp.ifcss.org/pub/software/fonts/gb/hbf/
+  cc40s.bdf	copying condition unclear
+	Generated from cc48s.bdf by bdfresize.
 
 Chinese traditional (CNS11643):
-	cns1-40.bdf	dongpo.math.ncu.edu.tw:/pub/shann/chinese/CNS_bitmap/
-	cns2-40.bdf	...
-	cns3-40.bdf	...
-	cns4-40.bdf	...
-	cns5-40.bdf	...
-	cns6-40.bdf	...
-	cns7-40.bdf	...
+  cns[1-7]-40.bdf	copying condition unclear
+	Generated from cns40st-X.hbf and cns4040.wX.bin
+	distributed at ftp://ftp.ifcss.org/pub/software/fonts/cns/hbf/

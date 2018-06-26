@@ -1,13 +1,11 @@
 STARTFONT 2.1
-COMMENT This font is still under development.
+COMMENT Copyright (C) 1994 Electrotechnical Laboratory, Japan.
 COMMENT You can use, copy, modify, distribute this file for free.
-COMMENT 
-COMMENT 92.12.01 created by Takahashi N. <ntakahas@etl.go.jp>
-COMMENT 94.09.14 modified by Takahashi N. <ntakahas@etl.go.jp>
+COMMENT 94.09.14 Created by Takahashi N. <ntakahas@etl.go.jp>
 FONT -ETL-Fixed-Medium-R-Normal--16-160-72-72-C-80-ISO8859-4
 SIZE 16 72 72
 FONTBOUNDINGBOX 8 16 0 -2
-STARTPROPERTIES 18
+STARTPROPERTIES 19
 FONTNAME_REGISTRY ""
 FOUNDRY "ETL"
 FAMILY_NAME "Fixed"
@@ -26,6 +24,7 @@ CHARSET_ENCODING "4"
 DEFAULT_CHAR 32
 FONT_DESCENT 2
 FONT_ASCENT 14
+COPYRIGHT "Copyright (C) 1994 Electrotechnical Laboratory, Japan."
 ENDPROPERTIES
 CHARS 191
 STARTCHAR SPACE

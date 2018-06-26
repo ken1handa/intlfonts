@@ -1,13 +1,11 @@
 STARTFONT 2.1
-COMMENT This font is still under development.
+COMMENT Copyright (C) 1994 Electrotechnical Laboratory, Japan.
 COMMENT You can use, copy, modify, distribute this file for free.
-COMMENT 
-COMMENT 94.09.14 created by Takahashi N. <ntakahas@etl.go.jp>
-COMMENT  - Upper half contains IPA for English, French, German, and Italian.
+COMMENT 94.09.14 Created by Takahashi N. <ntakahas@etl.go.jp>
 FONT -ETL-Fixed-Medium-R-Normal--24-240-72-72-C-120-MuleIPA-1
 SIZE 24 72 72
 FONTBOUNDINGBOX 12 24 0 -2
-STARTPROPERTIES 19
+STARTPROPERTIES 20
 FONTNAME_REGISTRY ""
 FOUNDRY "ETL"
 FAMILY_NAME "Fixed"
@@ -27,6 +25,7 @@ DEFAULT_CHAR 255
 FONT_DESCENT 2
 FONT_ASCENT 22
 _MULE_BASELINE_OFFSET -3
+COPYRIGHT "Copyright (C) 1994 Electrotechnical Laboratory, Japan."
 ENDPROPERTIES
 CHARS 96
 STARTCHAR unrounded front close

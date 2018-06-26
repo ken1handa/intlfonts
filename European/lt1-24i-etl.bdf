@@ -1,26 +1,11 @@
 STARTFONT 2.1
-COMMENT This font is still under development.
+COMMENT Copyright (C) 1999 Electrotechnical Laboratory, Japan.
 COMMENT You can use, copy, modify, distribute this file for free.
-COMMENT
-COMMENT This font was created by modifying fg-20.bdf distributed with
-COMMENT X.V11R3 under the directory contrib/fonts/bdf/oldx11.
-COMMENT The comment below is the original one.
-COMMENT -------------------------------------------------------------
-COMMENT the Lisp Machine name for this font was "20fg.ast"
-COMMENT -------------------------------------------------------------
-COMMENT 91.12.14 modified by K.Handa <handa@etl.go.jp>
-COMMENT   - ISO8859-1 Latin-1 glyphs are added.
-COMMENT This font is very suitable when used with:
-COMMENT   -jis-fixed-medium-r-normal--24-230-75-75-c-240-jisx0208.1983-0
-COMMENT 92.06.23 modified by Takahashi N. <ntakahas@etl.go.jp>
-COMMENT 92.07.09 modified by Takahashi N. <ntakahas@etl.go.jp>
-COMMENT   - all BBX are changed to 12 24 0 -2
-COMMENT 94.09.14 modified by Takahashi N. <ntakahas@etl.go.jp>
-COMMENT 99.01.18 modified from etl24-latin1.bdf by <handa@etl.go.jp>
+COMMENT 99.01.18 Created by K.Handa <handa@etl.go.jp>
 FONT -Etl-Fixed-Medium-I-Normal--24-240-72-72-C-120-ISO8859-1
 SIZE 24 72 72
 FONTBOUNDINGBOX 12 24 0 -2
-STARTPROPERTIES 19
+STARTPROPERTIES 20
 FONTNAME_REGISTRY ""
 FOUNDRY "ETL"
 FAMILY_NAME "Fixed"
@@ -39,6 +24,7 @@ CHARSET_ENCODING "1"
 DEFAULT_CHAR 32
 FONT_DESCENT 2
 FONT_ASCENT 22
+COPYRIGHT "Copyright (C) 1999 Electrotechnical Laboratory, Japan."
 _MULE_BASELINE_OFFSET -3
 ENDPROPERTIES
 CHARS 191
@@ -1047,7 +1033,7 @@ BITMAP
 0000
 07c0
 0fe0
-1c30
+1c20
 3060
 33e0
 37e0
@@ -1056,7 +1042,7 @@ BITMAP
 6cc0
 6fc0
 6780
-e000
+6000
 7f80
 3f80
 0000
@@ -1078,7 +1064,7 @@ BITMAP
 0000
 07c0
 0fe0
-1c70
+1c60
 3060
 3060
 3060
@@ -1355,20 +1341,20 @@ BITMAP
 0000
 0000
 0000
-0030
-0030
-0030
-0060
 0060
 0060
 0060
 00c0
 00c0
 00c0
-60c0
-c380
-7f00
-3e00
+00c0
+0180
+0180
+0180
+c180
+c700
+fe00
+7c00
 0000
 0000
 0000
@@ -1512,7 +1498,7 @@ BITMAP
 0000
 07c0
 0fe0
-1c70
+1c60
 3060
 3060
 3060
@@ -1521,7 +1507,7 @@ BITMAP
 60c0
 60c0
 60c0
-e380
+6380
 7f00
 3e00
 0000
@@ -2443,17 +2429,17 @@ BITMAP
 0000
 0000
 0000
-6000
-6dc0
-7fe0
+3000
+36e0
+3ff0
+3330
+6660
+6660
+6660
 6660
 ccc0
 ccc0
 ccc0
-ccc0
-9980
-9980
-9980
 0000
 0000
 0000
@@ -2475,10 +2461,10 @@ BITMAP
 0000
 0000
 0000
-3380
-37c0
+33c0
+37e0
 3c60
-70c0
+7060
 60c0
 60c0
 60c0
@@ -2508,12 +2494,12 @@ BITMAP
 0000
 0f80
 1fc0
-38e0
+38c0
+30c0
 60c0
 60c0
-60c0
-60c0
-e380
+6180
+6380
 7f00
 3e00
 0000
@@ -2987,7 +2973,7 @@ BITMAP
 0000
 0000
 ENDCHAR
-STARTCHAR NO-BREAK SPACE                                                ,A (B
+STARTCHAR NO-BREAK SPACE
 ENCODING 160
 SWIDTH 500 0
 DWIDTH 12 0

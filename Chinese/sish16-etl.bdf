@@ -1,15 +1,11 @@
 STARTFONT 2.1
-COMMENT 8x16 SiSheng font, IM internal use only
-COMMENT
-COMMENT This font is still under development.
+COMMENT Copyright (C) 1994 Electrotechnical Laboratory, Japan.
 COMMENT You can use, copy, modify, distribute this file for free.
-COMMENT
-COMMENT 94.9.14 created by Takahashi N. <ntakahas@etl.go.jp>
-COMMENT 94.10.17 CHARSET_REGISTRY changed from "Sisheng_cWnn" to "OMRON_UDC_ZH"
+COMMENT 94.10.17 Created by Takahashi N. <ntakahas@etl.go.jp>
 FONT -ETL-Fixed-Medium-R-Normal--16-160-72-72-C-80-OMRON_UDC_ZH-0
 SIZE 16 72 72
 FONTBOUNDINGBOX 7 16 0 -2
-STARTPROPERTIES 18
+STARTPROPERTIES 19
 FONTNAME_REGISTRY ""
 FOUNDRY "ETL"
 FAMILY_NAME "Fixed"
@@ -28,6 +24,7 @@ CHARSET_ENCODING "0"
 DEFAULT_CHAR 32 
 FONT_DESCENT 2
 FONT_ASCENT 14
+COPYRIGHT "Copyright (C) 1994 Electrotechnical Laboratory, Japan."
 ENDPROPERTIES
 CHARS 74
 STARTCHAR 0020

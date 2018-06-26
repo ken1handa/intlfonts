@@ -1,0 +1,24 @@
+BDF fonts:
+
+Most BDF fonts contain copyright notices.  README files under
+subdirectories also describe copyright condition of each file.
+
+Almost all of them are free, i.e. explicitly stated as freely usable,
+Public Domain, or GPL.  The exceptions are big fonts for Chinese and
+Japanese.
+
+The fonts cnsX-40.bdf and cc48s.bdf in the directory Chinese.BIG are
+distributed at ftp://ftp.ifcss.org/pub/software/fonts/ (the most
+famous site for Chinese softwares), but there's no explicit statement
+about the usage, free or not.  Thus the copying condition of fonts
+generated from these files (e.g. Chinese/cns3-16.bdf) are also
+unclear.
+
+The fonts j83-32.bdf and j83-48.bdf in the directory Japanese.BIG are
+also distributed at many sites, but there's no explicit statement
+about the usage, free or not.
+
+TrueType and Type1 fonts:
+
+All these fonts are contributed by the Omega Project to be used
+freely.

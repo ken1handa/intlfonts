@@ -1,18 +1,11 @@
 STARTFONT 2.1
-COMMENT This font is still under development.
+COMMENT Copyright (C) 1994 Electrotechnical Laboratory, Japan.
 COMMENT You can use, copy, modify, distribute this file for free.
-COMMENT
-COMMENT This font was automatically resized by bdfresize
-COMMENT mag_x = 3/2, mag_y = 36/25, threshold = 20%
-COMMENT 
-COMMENT 94.05.10 created by TAKAHASHI N. <ntakahas@etl.go.jp>
-COMMENT   - single column Arabic characters for Mule
-COMMENT 94.09.14 modified by TAKAHASHI N. <ntakahas@etl.go.jp>
-COMMENT 
+COMMENT 94.09.14 Created by TAKAHASHI N. <ntakahas@etl.go.jp>
 FONT -ETL-Fixed-Medium-R-Normal--24-240-72-72-C-120-MuleArabic-1
 SIZE 24 72 72
 FONTBOUNDINGBOX 12 36 0 -15
-STARTPROPERTIES 18
+STARTPROPERTIES 19
 FONTNAME_REGISTRY ""
 FOUNDRY "ETL"
 FAMILY_NAME "Fixed"
@@ -31,6 +24,7 @@ CHARSET_ENCODING "1"
 DEFAULT_CHAR 33
 FONT_ASCENT 21
 FONT_DESCENT 15
+COPYRIGHT "Copyright (C) 1994 Electrotechnical Laboratory, Japan."
 ENDPROPERTIES
 CHARS 73
 STARTCHAR Arabic space

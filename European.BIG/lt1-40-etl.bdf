@@ -1,28 +1,11 @@
 STARTFONT 2.1
-COMMENT This font is still under development.
+COMMENT Copyright (C) 1994 Electrotechnical Laboratory, Japan.
 COMMENT You can use, copy, modify, distribute this file for free.
-COMMENT
-COMMENT This font was automatically resized by bdfresize-1.4
-COMMENT   mag_x = 40/24, mag_y = 40/24, blackness = 4
-COMMENT This font was created by modifying fg-20.bdf distributed with
-COMMENT X.V11R3 under the directory contrib/fonts/bdf/oldx11.
-COMMENT And, slightly modified by Kawabata.
-COMMENT The comment below is the original one.
-COMMENT -------------------------------------------------------------
-COMMENT the Lisp Machine name for this font was "20fg.ast"
-COMMENT -------------------------------------------------------------
-COMMENT 91.12.14 modified by K.Handa <handa@etl.go.jp>
-COMMENT   - ISO8859-1 Latin-1 glyphs are added.
-COMMENT This font is very suitable when used with:
-COMMENT   -jis-fixed-medium-r-normal--24-230-75-75-c-240-jisx0208.1983-0
-COMMENT 92.06.23 modified by Takahashi N. <ntakahas@etl.go.jp>
-COMMENT 92.07.09 modified by Takahashi N. <ntakahas@etl.go.jp>
-COMMENT   - all BBX are changed to 12 24 0 -2
-COMMENT 94.09.14 modified by Takahashi N. <ntakahas@etl.go.jp>
+COMMENT 94.09.14 Created by Takahashi N. <ntakahas@etl.go.jp>
 FONT -Etl-Fixed-Medium-R-Normal--40-400-72-72-C-200-ISO8859-1
 SIZE 40 72 72
 FONTBOUNDINGBOX 20 40 0 -3
-STARTPROPERTIES 19
+STARTPROPERTIES 20
 FONTNAME_REGISTRY ""
 FOUNDRY "ETL"
 FAMILY_NAME "Fixed"
@@ -41,7 +24,8 @@ CHARSET_ENCODING "1"
 DEFAULT_CHAR 32
 FONT_DESCENT 3
 FONT_ASCENT 37
-MULE_BASELINE_OFFSET -3
+_MULE_BASELINE_OFFSET -3
+COPYRIGHT "Copyright (C) 1994 Electrotechnical Laboratory, Japan."
 ENDPROPERTIES
 CHARS 191
 STARTCHAR SPACE
@@ -4509,7 +4493,7 @@ BITMAP
 000000
 000000
 ENDCHAR
-STARTCHAR NO-BREAK SPACE                                                ,A (B
+STARTCHAR NO-BREAK SPACE
 ENCODING 160
 SWIDTH 834 0
 DWIDTH 20 0

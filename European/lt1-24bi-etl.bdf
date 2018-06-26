@@ -1,26 +1,11 @@
 STARTFONT 2.1
-COMMENT This font is still under development.
+COMMENT Copyright (C) 1999 Electrotechnical Laboratory, Japan.
 COMMENT You can use, copy, modify, distribute this file for free.
-COMMENT
-COMMENT This font was created by modifying fg-20.bdf distributed with
-COMMENT X.V11R3 under the directory contrib/fonts/bdf/oldx11.
-COMMENT The comment below is the original one.
-COMMENT -------------------------------------------------------------
-COMMENT the Lisp Machine name for this font was "20fg.ast"
-COMMENT -------------------------------------------------------------
-COMMENT 91.12.14 modified by K.Handa <handa@etl.go.jp>
-COMMENT   - ISO8859-1 Latin-1 glyphs are added.
-COMMENT This font is very suitable when used with:
-COMMENT   -jis-fixed-medium-r-normal--24-230-75-75-c-240-jisx0208.1983-0
-COMMENT 92.06.23 modified by Takahashi N. <ntakahas@etl.go.jp>
-COMMENT 92.07.09 modified by Takahashi N. <ntakahas@etl.go.jp>
-COMMENT   - all BBX are changed to 12 24 0 -2
-COMMENT 94.09.14 modified by Takahashi N. <ntakahas@etl.go.jp>
-COMMENT 99.01.18 modified from etl24-latin1.bdf by <handa@etl.go.jp>
+COMMENT 99.01.18 Created by K.Handa <handa@etl.go.jp>
 FONT -Etl-Fixed-Bold-I-Normal--24-240-72-72-C-120-ISO8859-1
 SIZE 24 72 72
 FONTBOUNDINGBOX 12 24 0 -2
-STARTPROPERTIES 19
+STARTPROPERTIES 20
 FONTNAME_REGISTRY ""
 FOUNDRY "ETL"
 FAMILY_NAME "Fixed"
@@ -40,6 +25,7 @@ DEFAULT_CHAR 32
 FONT_DESCENT 2
 FONT_ASCENT 22
 _MULE_BASELINE_OFFSET -3
+COPYRIGHT "Copyright (C) 1999 Electrotechnical Laboratory, Japan."
 ENDPROPERTIES
 CHARS 191
 STARTCHAR SPACE
@@ -1048,14 +1034,14 @@ BITMAP
 0fc0
 1fe0
 3c70
-70e0
-77e0
-7fe0
-7ee0
-fdc0
-fdc0
-ffc0
-ef80
+7070
+77f0
+eff0
+dc60
+dce0
+dce0
+dfc0
+cf80
 e000
 ff80
 7f80
@@ -1079,14 +1065,14 @@ BITMAP
 07e0
 0ff0
 1e70
-3870
+1870
 3870
 3870
 3ff0
 7fe0
 70e0
 70e0
-70e0
+e0e0
 e1c0
 e1c0
 e1c0
@@ -1109,13 +1095,13 @@ BITMAP
 0000
 1fc0
 1fe0
-1cf0
+1ce0
 38e0
 38e0
 39c0
 3fc0
 7fc0
-71c0
+71e0
 70e0
 70e0
 e3c0
@@ -1206,11 +1192,11 @@ BITMAP
 3800
 3800
 3800
-3fc0
+7fc0
 7f80
 7000
 7000
-7000
+e000
 e000
 ffc0
 ffc0
@@ -1355,9 +1341,6 @@ BITMAP
 0000
 0000
 0000
-0070
-0070
-0070
 00e0
 00e0
 00e0
@@ -1365,8 +1348,11 @@ BITMAP
 01c0
 01c0
 01c0
-e1c0
-c780
+01c0
+0380
+0380
+e380
+e780
 ff00
 7e00
 0000
@@ -1396,7 +1382,7 @@ BITMAP
 7c00
 7e00
 7700
-7380
+e380
 e380
 e1c0
 e0c0
@@ -1423,11 +1409,11 @@ BITMAP
 3800
 3800
 3800
-3800
 7000
 7000
 7000
-7000
+e000
+e000
 e000
 ffc0
 ffc0
@@ -1448,20 +1434,20 @@ BITMAP
 0000
 0000
 0000
-3870
-3cf0
-3cf0
+1870
+1cf0
+1cf0
+3fe0
+3fe0
+3fe0
 7fe0
-7fe0
-7fe0
-7fe0
-edc0
-e1c0
-e1c0
-e1c0
-c380
-c380
-c380
+75c0
+71c0
+71c0
+f1c0
+e380
+e380
+e380
 0000
 0000
 0000
@@ -1479,20 +1465,20 @@ BITMAP
 0000
 0000
 0000
-3870
-3c70
-3c70
-7ce0
-7ce0
+1c70
+1c70
+1c70
+3ce0
+3ee0
+3ee0
 7ee0
-7ee0
-efc0
-efc0
-e7c0
-e7c0
-c780
-c780
-c380
+77c0
+77c0
+77c0
+e3c0
+e380
+e380
+e380
 0000
 0000
 0000
@@ -1761,11 +1747,11 @@ BITMAP
 3870
 3870
 3870
-70e0
+38e0
 70e0
 70e0
 76e0
-ffc0
+7fc0
 ffc0
 ffc0
 ffc0
@@ -2073,12 +2059,12 @@ BITMAP
 0000
 07c0
 0fe0
-1c70
-0070
+1ce0
+00e0
 0fe0
 3fe0
-70e0
-f1e0
+70c0
+f1c0
 e7c0
 ffc0
 7dc0
@@ -2134,9 +2120,9 @@ BITMAP
 0000
 0000
 0000
-0fe0
+0fc0
 1fe0
-3c70
+3c60
 70e0
 7000
 7000
@@ -2198,7 +2184,7 @@ BITMAP
 0000
 0fc0
 1fe0
-3c70
+3c60
 70e0
 7fe0
 ffe0
@@ -2291,7 +2277,7 @@ BITMAP
 3800
 3bc0
 3fe0
-3ef0
+3ee0
 78e0
 70e0
 70e0
@@ -2379,17 +2365,17 @@ BITMAP
 0000
 0000
 0000
-1c00
-1c00
+3800
+3800
 38e0
 39e0
-3bc0
-3f80
+7bc0
+7f80
 7e00
 7c00
 7e00
-7f00
 ef00
+e700
 e780
 e380
 0000
@@ -2444,7 +2430,7 @@ BITMAP
 0000
 0000
 3800
-3ff0
+3fe0
 3ff0
 3bb0
 7770
@@ -2477,8 +2463,8 @@ BITMAP
 0000
 3bc0
 3fe0
-3e70
-78f0
+3ee0
+78e0
 70e0
 70e0
 70e0
@@ -2508,12 +2494,12 @@ BITMAP
 0000
 0fc0
 1fe0
-3cf0
+38e0
 70e0
 70e0
 70e0
 70e0
-73c0
+71c0
 7f80
 3f00
 0000
@@ -2987,7 +2973,7 @@ BITMAP
 0000
 0000
 ENDCHAR
-STARTCHAR NO-BREAK SPACE                                                ,A (B
+STARTCHAR NO-BREAK SPACE
 ENCODING 160
 SWIDTH 500 0
 DWIDTH 12 0
@@ -4922,20 +4908,20 @@ BITMAP
 0000
 1ce0
 1df0
-1fb8
-3e70
-3c70
+1ff0
+1e30
+3c30
 3870
 3870
-78e0
+3860
 7ce0
 7ee0
 77c0
-e700
+7380
 e000
 e000
-c000
-8000
+e000
+e000
 0000
 0000
 0000
@@ -5515,7 +5501,7 @@ BITMAP
 0000
 3bc0
 3fe0
-3e70
+3e60
 78e0
 70e0
 70e0
@@ -5546,7 +5532,7 @@ BITMAP
 0000
 0fc0
 1fe0
-3cf0
+3ce0
 70e0
 70e0
 70e0
@@ -5577,7 +5563,7 @@ BITMAP
 0000
 0fc0
 1fe0
-3cf0
+3ce0
 70e0
 70e0
 70e0
@@ -5608,7 +5594,7 @@ BITMAP
 0000
 0fc0
 1fe0
-3cf0
+3ce0
 70e0
 70e0
 70e0
@@ -5639,7 +5625,7 @@ BITMAP
 0000
 0fc0
 1fe0
-3cf0
+3ce0
 70e0
 70e0
 70e0
@@ -5670,7 +5656,7 @@ BITMAP
 0000
 0fc0
 1fe0
-3cf0
+3ce0
 70e0
 70e0
 70e0
@@ -5732,12 +5718,12 @@ BITMAP
 0000
 1fe0
 3fe0
-7bc0
+73c0
 efc0
 efc0
 ffc0
 fdc0
-f780
+f380
 ff00
 fe00
 0000

@@ -1,4 +1,79 @@
+2001-05-14  Milan Zamazal  <pdm@debian.org>
+
+	* Chinese/fonts.alias: New aliases for Big5 and GB8565 fonts.
+
+2001-04-20  Kenichi Handa  <handa@etl.go.jp>
+
+	* Misc/bmp16-etl.bdf: Fix BBX for ENCODING 8224.
+
+2001-03-27  Kenichi Handa  <handa@etl.go.jp>
+
+	* Chinese/fonts.alias: Add aliases for CNS fonts.
+
+2001-03-05  Pavel Jan,Bm(Bk ml.  <Pavel@Janik.cz>
+
+	* configure.in (fontdir): Fix help string.
+
+2000-12-15  Kenichi Handa  <handa@etl.go.jp>
+
+	* */*-elt.bdf: Copyright notice udpated.
+
+	* European/koi*.bdf: Properties CHARSET_REGISTRY and
+	CHARSET_ENCODING fixed.
+
+2000-11-17  Kenichi Handa  <handa@etl.go.jp>
+
+	* COPYRIGHT: New file.
+
+2000-08-18  Kenichi Handa  <handa@etl.go.jp>
+
+	* European/lt1-16i-etl.bdf, European/lt1-24b-etl.bdf,
+	European/lt1-24bi-etl: Glyphs improved.
+
+2000-07-01  Kenichi Handa  <handa@etl.go.jp>
+
+	* Asian/thai18.bdf, Asian/thai18b.bdf, Asian/thai18i.bdf,
+	Asian/thai18bi, Asian/thai24.bdf, Asian/xtis18.bdf,
+	Asian/xtis24.bdf: Add property COPYRIGHT stating that they are
+	public domain.
+	* Asian/tib16-mule.bdf, Asian/tib1c16-mule.bdf, Asian/tib24-mule,
+	Asian/tib1c24-mule: Generated from tib32p-mule.bdf and tuned by
+	hand.
+
+	* Ethiopic/ethio16f-uni.bdf, Ethiopic/ethio24f-uni: Updated from
+	the original ftp site.
+	* Ethiopic/ethio12-uni.bdf: New font.
+	* Ethiopic.BIG/ethio300-uni.bdf: New font.
+	
+	* Japanese/j90-16.bdf: Kana glyphs improved.
+	* Japanese/j00-1-16.bdf, Japanese/j00-2-16.bdf: New fonts.
+
+2000-06-31  Toru Tomabechi <Toru.Tomabechi@orient.unil.ch>
+
+	* Asian/tib9p-mule.bdf, Asian/tib14p-mule.bdf,
+	Asian/tib16p-mule.bdf, Asian/tib18p-mule.bdf,
+	Asian/tib24p-mule.bdf, Asian/tib32p-mule.bdf: New fonts.
+
+2000-06-23  Kenichi Handa  <handa@etl.go.jp>
+
+	* Chinese.BIG/cnsX-40.bdf: Rebuild form bitmap files in CJK
+	LaTeX.
+
+	* Chinese/cns1-16.bdf, Chinese/cns2-16.bdf: Updated from the
+	original ftp site.
+	* Chinese/cns[1-7]-24.bdf, Chinese/cns[3-7]-16.bdf: Rebuild from
+	cnsX-40.bdf.
+	* Chinese/taipei16.bdf: Updated from the original ftp site.
+
+	* European/lt1-{32,48,60}-etl.bdf: New fonts.
+
 1999-12-07  Kenichi Handa  <handa@etl.go.jp>
+
+	* Version 1.2 release.
+
+1999-12-07  Kenichi Handa  <handa@etl.go.jp>
+
+	* Chinese/taipei16.bdf: Properties fixed.
 
 	* make-dist (files): Include rmoldfnt.sh, not rm-oldfonts.sh.
 
@@ -144,3 +219,7 @@
 
         * Makefile (${SUBDIRS} ${SUBDIRS_X} ${SUBDIRS_BIG}): Give -p arg
 	to mkdir.
+
+;; Local Variables:
+;; coding: iso-2022-7bit-unix
+;; End:

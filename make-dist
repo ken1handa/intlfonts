@@ -12,14 +12,14 @@ if [ ! -f README -o ! -d European ] ; then
   exit 1
 fi
 
-version=`sed -n '1 s/.*International Fonts Ver\.\([0-9][0-9]*\)\.\([0-9][0-9]*\)\.\([0-9][0-9]*\).*/\1 \2 \3/p' < README`
+version=`sed -n '1 s/.*International Fonts Ver\.\([0-9][0-9]*\)\.\([0-9][0-9]*\) .*/\1 \2/p' < README`
 
 if [ -z "${version}" ] ; then
   echo "${prog}: Header of README doesn't contain valid version number." >&2
   exit 1
 fi
 
-files="README NEWS ChangeLog configure.in configure Makefile.in rmoldfnt.sh install-sh Emacs.ap make-dist"
+files="README NEWS ChangeLog configure.in configure Makefile.in rmoldfnt.sh install-sh Emacs.ap"
 subdirs="European European.BIG Asian Chinese Chinese.BIG Chinese.X\
 	Japanese Japanese.BIG Japanese.X Korean.X Ethiopic Misc\
 	TrueType Type1"
@@ -96,12 +96,7 @@ fi
 set ${version}
 major=$1
 minor=$2
-release=$3
-if [ "x$release" = "x" ] ; then
-  version=${major}.${minor}
-else
-  version=${major}.${minor}.${release}
-fi
+version=${major}.${minor}
 
 echo "The latest version is ${version}."
 

@@ -8,7 +8,7 @@ dnl
 dnl Fonts installation directory.
 dnl
 AC_ARG_WITH(fontdir,
-    [  --with-fontdir=DIR\t  install fonts in DIR [PREFIX/share/emacs/fonts]])
+    [  --with-fontdir=DIR	  install fonts in DIR [PREFIX/share/emacs/fonts]])
 fontdir=${with_fontdir}
 if test -z "$fontdir" -o "${fontdir}" = yes; then
   theprefix=$prefix

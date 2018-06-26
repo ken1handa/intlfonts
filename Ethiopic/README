@@ -1,3 +1,5 @@
-Ethiopic (Unicode):
-	ethio16f-uni.bdf	by fisseha@cig.mot.com
-	ethio24f-uni.bdf	...
+Ethiopic (Unicode encoding):
+  ethio{12,16f}-uni.bdf		GNU Copyleft
+	Distributed at http://www.AbyssiniaCyberGateway.net/fidel/fonts.html
+  ethio24f-uni.bdf		GNU Copyleft
+	Generated from ethio300-uni.bdf by bdfresize.

@@ -1,13 +1,7 @@
 STARTFONT 2.1
-COMMENT Donated by H. Kagotani <kagotani@cs.titech.ac.jp>; public domain
-COMMENT font from Japan
-COMMENT 93.1.19 modified by Takahashi N. <ntakahas@etl.go.jp>
-COMMENT         changed to koi.
-COMMENT 94.9.14 modified by Takahashi N. <ntakahas@etl.go.jp>
-COMMENT         changed to GOST19768.74.
-COMMENT 99.5.27 modified by K.Handa <handa@etl.go.jp>
-COMMENT		Fontname changed to KOI8-R
-COMMENT		add e with ", E with ", hard capital sign
+COMMENT Copyright (C) 1999 Electrotechnical Laboratory, Japan.
+COMMENT 99.5.27 Created by K.Handa <handa@etl.go.jp>
+COMMENT          by rearranging cyr14-etl.bdf.
 FONT -ETL-Fixed-Medium-R-Normal--14-140-72-72-C-70-KOI8-R
 SIZE 14 72 72
 FONTBOUNDINGBOX 7 14 0 -2
@@ -25,12 +19,12 @@ RESOLUTION_X 72
 RESOLUTION_Y 72
 SPACING "C"
 AVERAGE_WIDTH 70
-CHARSET_REGISTRY "GOST19768.74"
-CHARSET_ENCODING "1"
+CHARSET_REGISTRY "KOI8"
+CHARSET_ENCODING "R"
 DEFAULT_CHAR 32
 FONT_DESCENT 2
 FONT_ASCENT 12
-COPYRIGHT "Public domain font.  Share and enjoy."
+COPYRIGHT "Copyright (C) 1999 Electrotechnical Laboratory, Japan."
 ENDPROPERTIES
 CHARS 161
 STARTCHAR 0020
