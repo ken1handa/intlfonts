@@ -1,12 +1,10 @@
 JISX0208.1983 (JIS-Kanji) fonts
-  j83-{32,48}.bdf	copying condition unclear
-	Generated from bitmap data which was created by Masatoshi Watanabe
-	<watanabe@izanami.material.tohoku.ac.jp> or <watanabe@tohoku.ac.jp>.
-	Various formats of fonts generated from this orignal bitmap data
-	are widely distributed in the Internate now.
+	jiskan32.bdf	created from jiskan16.bdf by bdfresize
+	jiskan48.bdf	created from jiskan24.bdf by bdfresize
 
 JISX0212 (JIS-Kanji supplementary) fonts
   jksp40.bdf	Copyright Adobe, freely usable
+  		The detail is  described in the comment of the font.
 	Rearranged and modified by
 	Koichi Yasuoka <yasuoka@kudpc.kyoto-u.ac.jp> and distribyted at
 	http://kanji.zinbun.kyoto-u.ac.jp/~yasuoka/ftp/fonts/.

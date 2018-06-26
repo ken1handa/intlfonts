@@ -1,5 +1,6 @@
 Japanese Roman&Kana (JISX0201):
   8x16rk.bdf	Copyright Sony Corp, freely usable.
+		The detail is described in the comment of the font.
 	Distributed with X.V11R5/mit/bdf/misc.
 	PIXEL_SIZE is corrected (24 -> 16)
   12x24rk.bdf	..likewise..

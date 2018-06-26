@@ -1,12 +1,14 @@
+This directory used to contain these fonts, but all of them are
+deleted because their copying conditions are unclear.
+
 Chinese simplified (GB2312.1980):
-  cc48s.bdf	copying condition unclear
+  cc48s.bdf
 	Generated from cc48s.hbf, cc48.sym, cs48s.1, and cs48s.2
-	distribyted at
-		ftp://ftp.ifcss.org/pub/software/fonts/gb/hbf/
-  cc40s.bdf	copying condition unclear
+	distributed at ftp://ftp.ifcss.org/pub/software/fonts/gb/hbf/
+  cc40s.bdf
 	Generated from cc48s.bdf by bdfresize.
 
 Chinese traditional (CNS11643):
-  cns[1-7]-40.bdf	copying condition unclear
+  cns[1-7]-40.bdf
 	Generated from cns40st-X.hbf and cns4040.wX.bin
 	distributed at ftp://ftp.ifcss.org/pub/software/fonts/cns/hbf/

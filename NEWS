@@ -1,4 +1,17 @@
-Intlfonts NEWS -- history of user visible changes.  18 August 2000
+Intlfonts NEWS -- history of user visible changes.  15 December 2012
+
+
+* Changes in intlfonts 1.4
+
+** The following fonts are deleted because of unclear copying
+conditions are unclear.
+  Chinese/cns[1-7]-16.bdf, Chinese/cns[1-7]-24.bdf, 
+  Chinese.BIG/cns[1-7]-40.bdf, Chinese.BIG/cc4[08].bdf
+
+** The following fonts are replaced by the corresponding free fonts.
+  Japanese/j83-32.bdf -> Japanese/jiskan32.bdf
+  Japanese/j83-48.bdf -> Japanese/jiskan48.bdf
+
 
 
 * Changes in intlfonts 1.3

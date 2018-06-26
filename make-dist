@@ -12,14 +12,14 @@ if [ ! -f README -o ! -d European ] ; then
   exit 1
 fi
 
-version=`sed -n '1 s/.*International Fonts Ver\.\([0-9][0-9]*\)\.\([0-9][0-9]*\) .*/\1 \2/p' < README`
+version=`sed -n '1 s/.*International Fonts Ver\.\([0-9][0-9]*\)\.\([0-9][0-9]*\)\.\([0-9][0-9]*\).*/\1 \2 \3/p' < README`
 
 if [ -z "${version}" ] ; then
   echo "${prog}: Header of README doesn't contain valid version number." >&2
   exit 1
 fi
 
-files="README NEWS ChangeLog configure.in configure Makefile.in rmoldfnt.sh install-sh Emacs.ap"
+files="README NEWS ChangeLog configure.in configure Makefile.in rmoldfnt.sh install-sh Emacs.ap make-dist"
 subdirs="European European.BIG Asian Chinese Chinese.BIG Chinese.X\
 	Japanese Japanese.BIG Japanese.X Korean.X Ethiopic Misc\
 	TrueType Type1"
@@ -96,7 +96,12 @@ fi
 set ${version}
 major=$1
 minor=$2
-version=${major}.${minor}
+release=$3
+if [ "x$release" = "x" ] ; then
+  version=${major}.${minor}
+else
+  version=${major}.${minor}.${release}
+fi
 
 echo "The latest version is ${version}."
 
@@ -168,8 +173,8 @@ if [ "${split}" = "yes" ] ; then
 fi
 
 if [ "${diff}" = "yes" ] ; then
-  if [ ${minor} = "0" ] ; then
-    if [ ${major} = "1" ] ; then
+  if [ "${minor}" = "0" ] ; then
+    if [ "${major}" = "1" ] ; then
       echo "${prog}:  There is no previous version." >&2
       exit 1
     fi
@@ -177,13 +182,14 @@ if [ "${diff}" = "yes" ] ; then
     # Find the previous greatest minor version.
     prev_minor=0
     for dir in intlfonts-${prev_major}.*; do
-      this=`echo ${dir} | sed  's/intlfonts-[0-9][0-9]*\.\([0-9][0-9]*\)/\1/`
+      this=`echo ${dir} | sed  's/intlfonts-[0-9][0-9]*\.\([0-9][0-9]*\)/\1/'`
       if [ ${this} -gt ${prev_minor} ] ; then prev_minor=${this}; fi
     done
   else
     prev_major=${major}
     prev_minor=`expr ${minor} - 1`
   fi
+
   prev_version=${prev_major}.${prev_minor}
   prevdir=intlfonts-${prev_version}
   diff_file=intlfonts-${prev_version}-${version}.diff

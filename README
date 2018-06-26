@@ -1,14 +1,15 @@
-### International Fonts Ver.1.3 ###
+### International Fonts Ver.1.4.0 ###
 
 0. Introduction
 
-This directory contains free X11 fonts (BDF format) for all characters
-that Emacs can handle.  They are classified into several categories
-(e.g Asian, European), with one sub-directory for each category.
+This directory contains free fonts for all characters that Emacs can
+handle.  See the end section for copying conditions.
+
+The fonts are classified into several categories (e.g Asian,
+European), with one sub-directory for each category.
 
 This directory also contains the following files:
   README	this file
-  COPYING	short note about copying coditions
   NEWS		describe what is new in the latest version
   ChangeLog	log of changes to intlfonts package
   configure	configure script (made from configure.in below)
@@ -34,8 +35,6 @@ file and archive files.
 % cd $WORKDIR
 % ./configure
 % make install
-
-Note: You don't have to do `make' before `make install'.
 
 Then all fonts are installed to this directory:
 	/usr/local/share/emacs/fonts
@@ -176,10 +175,6 @@ Chinese  -- Chinese normal size fonts excluding what distributed with X
 	taipei{16,24}.bdf	16 and 24 dots BIG5 (ETen)
 	sish{14,16,24}-etl.bdf	14, 16, 24 dots SiSheng
 
-Chinese.BIG -- Chinese big fonts
-	cc{40,48}s.bdf		40 and 48 dots GB2312
-	cns[1234567]-40.bdf	40 dots CNS Plane 1..7
-
 Chinese.X -- Chinese fonts distributed with X
 	gb16{fs,st}.bdf		16 dots GB2312 (gb16fs.bdf & gb16st.bdf)
 	gb24st.bdf		24 dots GB2312 (gb24st.bdf)
@@ -195,8 +190,8 @@ Japanese -- Japanese normal size fonts excluding what distributed with X
 	j00-{1,2}-16.bdf	16 dots JISX0213.2000 Plane 1 & 2
 
 Japanese.BIG -- Japanese big fonts
-	j83-32.bdf		32 dots JISX0208.1983
-	j83-48.bdf		48 dots JISX0208.1983
+	jiskan32.bdf		32 dots JISX0208.1983
+	jiskan48.bdf		48 dots JISX0208.1983
 	jksp40.bdf		40 dots JISX0212.1990 (HojoKanji)
 
 Japanese.X -- Japanese fonts distributed with X
@@ -243,13 +238,26 @@ Type1 -- Postscript Type1 fonts
 		Vietnamese (VISCII roman)
 
 
-3.  Future plan
+3. Copyright information
 
-This version will be the last version of "International Font".  We
-have started a new project "m17n fonts".  We tried to make
-"International Font" just a compilation of many fonts distributed
-worldwidely.  Thus, we dared not to change the original fonts.
+* Bitmap fonts (BDF format)
 
-But, in "m17n fonts", we are going to redesign all fonts (or, at
-least, ajdust design size, etc) so that they can be used together in a
-better way.
+All those fonts are Public Domain or contain copyright notices
+explicitly stating as freely usable.
+
+* Scalable fonts (TrueType and Type1)
+
+All those fonts are contributed by the Omega Project and distributed
+under GNU General Public License as published by the Free Software
+Foundation, either version 3 of the License, or (at your option) any
+later version.
+
+As a special exception, if you create a document which uses this font,
+and embed this font or unaltered portions of this font into the
+document, this font does not by itself cause the resulting document to
+be covered by the GNU General Public License. This exception does not
+however invalidate any other reasons why the document might be covered
+by the GNU General Public License. If you modify this font, you may
+extend this exception to your version of the font, but you are not
+obligated to do so. If you do not wish to do so, delete this exception
+statement from your version.

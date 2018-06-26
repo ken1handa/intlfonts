@@ -1,3 +1,56 @@
+2018-06-22  K. Handa  <handa@gnu.org>
+
+	Thanks to Akira Urushibata <afu@wta.att.ne.jp> for reporting these
+	bugs.
+
+	* Asian/xtis18.bdf: Sort glyphs by ENCODING.
+
+	* Asian/ind1c24-mule.bdf: Fix ENCODINGs 9082.
+
+2012-12-14  Kenichi Handa  <handa@gnu.org>
+
+	* Version 1.4.0 released.
+
+2012-12-14  Kenichi Handa  <handa@gnu.org>
+
+	* .cvsignore: New file.
+
+	* make-dist: Fix unpaired string quotation.
+
+	* Makefile.in (SUBDIRS_BIG): Delete Chienese.BIG.
+
+	* COPYING: New file (GPL).
+
+	* Chinese/fonts.alias: Delete entries correponding to deleted
+	fonts.
+
+	* Chinese/cns[1-7]-16.bdf, Chinese/cns[1-7]-24.bdf: Delete them.
+
+	* Chinese.BIG/cns[1-7]-40.bdf, Chinese.BIG/cc4[08].bdf: Delete
+	them.
+
+	* COPYRIGHT: Delete it.
+
+2006-04-26  Kenichi Handa  <handa@m17n.org>
+
+	* make-dist (version): Extract release number.
+	(files): Include make-dist.
+	(release): New variable.
+
+	* Chinese.X/gb16fs.bdf, Chinese.X/gb16st.bdf,
+	Chinese.X/gb24st.bdf: Fix 0x2736 and 0x2737 (exchanged).
+
+2006-04-10  Claudio Fontana  <claudio@gnu.org>
+
+        * Makefile.in: Add DESTDIR variable to support staged
+	installations.
+
+2003-07-03  Kenichi Handa  <handa@m17n.org>
+
+	* Japanese.BIG/j83-32.bdf, Japanese.BIG/j83-48.bdf: Deleted.
+
+	* Japanese.BIG/jiskan32.bdf, Japanese.BIG/jiskan48.bdf: New fonts.
+
 2001-05-14  Milan Zamazal  <pdm@debian.org>
 
 	* Chinese/fonts.alias: New aliases for Big5 and GB8565 fonts.
@@ -13,6 +66,10 @@
 2001-03-05  Pavel Jan,Bm(Bk ml.  <Pavel@Janik.cz>
 
 	* configure.in (fontdir): Fix help string.
+
+2000-12-15  Kenichi Handa  <handa@etl.go.jp>
+
+	* Version 1.3 released.
 
 2000-12-15  Kenichi Handa  <handa@etl.go.jp>
 
@@ -44,7 +101,7 @@
 	the original ftp site.
 	* Ethiopic/ethio12-uni.bdf: New font.
 	* Ethiopic.BIG/ethio300-uni.bdf: New font.
-	
+
 	* Japanese/j90-16.bdf: Kana glyphs improved.
 	* Japanese/j00-1-16.bdf, Japanese/j00-2-16.bdf: New fonts.
 
@@ -69,7 +126,7 @@
 
 1999-12-07  Kenichi Handa  <handa@etl.go.jp>
 
-	* Version 1.2 release.
+	* Version 1.2 released.
 
 1999-12-07  Kenichi Handa  <handa@etl.go.jp>
 
@@ -128,7 +185,7 @@
 
 	* Asian/xtis24.bdf: New font file.
 	* Asian/xtis18.bdf: New font file.
-	* Asian/fonts.alias: New file. 
+	* Asian/fonts.alias: New file.
 
 1999-06-11  Kenichi Handa  <handa@etl.go.jp>
 
@@ -157,7 +214,7 @@
 	E with ", hard capital sign.
 
 	* European/koi16-etl.bdf, European/koi24-etl: Likewise.
-	
+
 	* European/fonts.alias: Change entries for KOI8.
 
 1999-04-07  Kenichi Handa  <handa@etl.go.jp>
@@ -210,7 +267,7 @@
 1998-03-30  Ken'ichi Handa  <handa@melange.gnu.org>
 
 	* Version 1.1 released.
-	
+
 1998-03-30  Ken'ichi Handa  <handa@melange.gnu.org>
 
 	* make-dist: Fix a bug in if condition.

@@ -2,18 +2,6 @@ Chinese simplified (GB2312.1980):
   guob16.bdf	PUBLIC DOMAIN
 	GB2312 + GB8565-88 by Koichi Yasuoka
 
-Chinese tranditional (CNS11643):
-  cns1-16.bdf	copying condition unclear
-	Generated from cns1.hbf and cns1.bin.gz
-	distributed at ftp://ftp.ifcss.org/pub/software/fonts/cns/hbf/.
-		
-  cns2-16.bdf	copying condition unclear
-	Generated from cns2.hbf and cns2.bin.gz
-	distributed at ftp://ftp.ifcss.org/pub/software/fonts/cns/hbf/.
-		
-  cns[3-7]-16.bdf, cns[1-7]-24.bdf	copying condition unclear
-	Generated from cns[1-7]-40.bdf by bdfresize.
-
 Chinese tranditional (BIG5):
   taipei16.bdf, taipei24.bdf	PUBLIC DOMAIN
 	Distributed at ftp.ifcss.org:/software/fonts.
@@ -21,3 +9,19 @@ Chinese tranditional (BIG5):
 
 Chinese SiSheng:
   sish{14,16,24}-etl.bdf	Copyright ETL, freely usable
+
+This directory used to contain these fonts too, but all of them are
+deleted because their copying conditions are unclear.
+
+Chinese tranditional (CNS11643):
+  cns1-16.bdf
+	Generated from cns1.hbf and cns1.bin.gz
+	distributed at ftp://ftp.ifcss.org/pub/software/fonts/cns/hbf/.
+		
+  cns2-16.bdf
+	Generated from cns2.hbf and cns2.bin.gz
+	distributed at ftp://ftp.ifcss.org/pub/software/fonts/cns/hbf/.
+		
+  cns[3-7]-16.bdf, cns[1-7]-24.bdf
+	Generated from cns[1-7]-40.bdf by bdfresize.
+

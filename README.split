@@ -1,5 +1,5 @@
 This directory contains compressed (by gzip) archive files of fonts
-in the distribution intlfonts-1.3.
+in the distribution intlfonts-1.4.0.
 
 Each archive file contains the same README, Makefile and some other
 staffs used by Makefile.  Please read README for more detail.
