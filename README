@@ -1,4 +1,4 @@
-### International Fonts Ver.1.4.1 ###
+### International Fonts Ver.1.4.2 ###
 
 0. Introduction
 
@@ -170,8 +170,6 @@ Asian -- Asian (non-CJK) fonts
 
 Chinese  -- Chinese normal size fonts excluding what distributed with X
 	guob16.bdf		16 dots GB2312 + GB8565-88
-	cns[1234567]-16.bdf	16 dots CNS Plane 1..7
-	cns[1234567]-24.bdf	24 dots CNS Plane 1..7
 	taipei{16,24}.bdf	16 and 24 dots BIG5 (ETen)
 	sish{14,16,24}-etl.bdf	14, 16, 24 dots SiSheng
 

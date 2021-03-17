@@ -1,3 +1,14 @@
+2021-03-12  handa  <handa@gnu.org>
+
+	* Version 1.4.2 released.
+
+	* Chinese/cns[1-7]-16.bdf, Chinese/cns[1-7]-24.bdf: Delete them again.
+
+	* Chinese.BIG/cns[1-7]-40.bdf, Chinese.BIG/cc4[08].bdf: Delete
+	them again.
+
+	* README.split: Delete it.
+
 2021-02-06  handa  <handa@gnu.org>
 
 	* Version 1.4.1 released.
