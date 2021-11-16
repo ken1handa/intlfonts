@@ -19,9 +19,9 @@ if [ -z "${version}" ] ; then
   exit 1
 fi
 
-files="README NEWS ChangeLog configure.in configure Makefile.in rmoldfnt.sh install-sh Emacs.ap make-dist"
+files="README COPYING NEWS ChangeLog configure.in configure Makefile.in rmoldfnt.sh install-sh Emacs.ap make-dist"
 subdirs="European European.BIG Asian Chinese Chinese.BIG Chinese.X\
-	Japanese Japanese.BIG Japanese.X Korean.X Ethiopic Misc\
+	Japanese Japanese.BIG Japanese.X Korean.X Ethiopic Ethiopic.BIG Misc\
 	TrueType Type1"
 sizes="14 16 18 24 32 40 48"
 
