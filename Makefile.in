@@ -10,7 +10,7 @@ SHELL	  = /bin/sh
 
 INSTALL   = @INSTALL@
 
-SUBDIRS =	European Asian Chinese Japanese Ethiopic Misc
+SUBDIRS =	European Asian Chinese Japanese Misc
 SUBDIRS_X =	Chinese.X Japanese.X Korean.X
 SUBDIRS_BIG =	European.BIG Japanese.BIG
 

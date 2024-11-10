@@ -1,3 +1,11 @@
+2021-12-27  handa  <handa@gnu.org>
+
+	* Version 1.4.3 released.
+
+2021-12-27  handa  <handa@gnu.org>
+
+	* Ethiopic/*.bdf, Ethiopic.BIG/*.bdf: Delete them.
+
 2021-03-12  handa  <handa@gnu.org>
 
 	* Version 1.4.2 released.
